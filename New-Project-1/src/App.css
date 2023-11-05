@@ -1,0 +1,11 @@
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#star {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
