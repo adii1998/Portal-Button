@@ -20,8 +20,8 @@ function App() {
   return (
     <div id="main">
       <input id="input" value={inputText} onChange={handleInputChange}></input><br/>
-      <button id="button" onClick={handleButtonClick}>Click</button><br/>
-      <PortalButton buttonClick={handleButtonClick} /><br/>
+      <button id="button" onClick={handleButtonClick}>Click</button>
+      <PortalButton buttonClick={handleButtonClick} />
       <PortalTextArea value={inputText} />
     </div>
   )
